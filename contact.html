@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+</body>
+
+<nav>
+  <a href="index.html"target="blank">Home</a>
+  <a href="menu.html"target="blank">Menu</a>
+  <a href="profile.html"target="blank">My Profile</a>
+  <a href="gallery.html"target="blank">Gallery</a>
+  <a href="mycart.html"target="blank">My Cart</a>
+  <a href="contact.html"target="blank">Contact Us </a>
+
+</nav>
+
+<div class="container">
+
+   <div style="text-align: center;">   <!-- it can also say inline css-->
+    <h2>Contact Me</h2>
+    <p>For more inforamtion you can contact me </p>
+   
+  </div>
+
+  <form action="index.php">
+     <label for="fname">First Name:</label>  <!-- if we click on first name then it will redirect to the column where we type -->
+    <input type="text" name="fname" id="fname">
+
+    <label for="lname">Last Name:</label> 
+    <input type="text" name="lname" id="lname">
+
+    <label for="lname">Country:</label> 
+    <select id="country">
+      <option>Nepal</option>
+      <option>Usa</option>
+      <option>India</option>
+
+    </select>
+
+    <label for="subject"> Subject:</label>
+    <textarea id="subject"> </textarea>
+    
+    <input type="submit" value="Send Message">
+
+
+  </form>
+</div>
+
+<footer>
+  <p>Copyright &copy; 2022 alsa bhujel</p>
+</footer>
+</html>

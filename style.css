@@ -1,0 +1,129 @@
+body{
+   margin: 0;    /* the body part will start from corner without giving any space*/
+   background-color: lavender; /* it will provide color to the hole part*/
+}
+
+header{
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  color: lightcoral;
+  font-family: "Gill Sans", sans-serif;;
+
+}
+
+nav{
+  overflow: auto;
+  background-color:purple;
+}
+
+nav a{
+  float: left;
+  color: rgb(255, 255, 255); 
+  padding: 10px 20px;
+  text-decoration: none;
+  
+}
+
+nav a:hover{
+  background-color: palevioletred;
+  color: cornsilk;
+}
+
+.column{
+  float: left;
+  padding: 10px;
+}
+
+.column.side{
+  width: 20%;
+}
+
+.column.middle{
+  width: 50%
+}
+
+input[type=text], select, textarea {
+  width: 100;
+}
+
+@media screen and (max-width: 600px){
+  .column.side,.column.middle {
+    width: 100;
+  }
+}
+
+p{
+  text-align: justify;  /* justify is used to arrange the line of word word file ma align magin rakha jasto*/
+  /* text-transform: uppercase;   we can make all the text into upper case form*/
+}
+
+div.gallery{
+  margin: 5px;
+  border: 3px solid darkcyan;
+  float: left;
+  width: 100;
+  cursor: pointer;
+}
+
+div.gallery:hover{
+  border: 5px solid darkred;
+
+}
+
+div.gallery img{
+  width: 100%;
+  height: auto;
+
+}
+
+div.desc{
+  padding: 15px;
+  text-align: center;
+  background-color: wheat;
+  color: black;
+}
+
+
+footer{
+  clear: both;  /*it will keep the footer tag at last instead of coming up  */
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  color: lightcoral;
+  font-family: "Gill Sans", sans-serif;;
+}
+
+
+
+/* h1{
+  border: 2px solid rgba(119, 145, 155, 0.765);
+  background-color: hotpink;
+  color: rgb(24, 24, 26);
+  padding: 10px;
+  margin: 10;
+  font-family: "comic Sans Ms";
+  text-align: center;
+}
+
+p{
+  border: 2px solid gray;
+  background-color: gainsboro;
+  width: 580px;
+  color: black;
+  padding: 5px;
+  
+
+  
+} */
+
+
+
+/* border: 1px solid black; = it is given to provide border for that layout of text
+   background-color: hotpink; = to provide background color of that section
+   padding: 10px; = to maintain the space betwwen order and text (space inside border )
+   margin: 10;  = space outside border 
+  font-family: "comic Sans Ms"; =  to given different style of font
+  text-align: center; = to move that text into center
+  text-decoration: none; = it will remove the underline
+/*
